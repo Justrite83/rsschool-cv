@@ -53,6 +53,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
+  background-color:rgb(222, 236, 248);
 }
 
 .footer-container{
@@ -91,4 +93,14 @@
 
 .date{
   color:rgb(253, 253, 253);
+}
+
+.project-link{
+  line-height: 50px;
+  color:rgb(20, 7, 56);
+  text-decoration: none;
+}
+
+.project-link:hover{
+  color:rgb(161, 190, 199)
 }
