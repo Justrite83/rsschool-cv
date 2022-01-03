@@ -1,6 +1,6 @@
 .nav-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: 0;
 }
@@ -12,42 +12,83 @@
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  color:black;
+  color:rgb(253, 253, 253);
   text-decoration: none;
 
 }
 
-.nav-link:visited{
-  color:rgb(18, 2, 107);
+.nav-link:hover{
+  color:rgb(161, 190, 199);
 }
 
 
 .header {
-  background-color:rgb(222, 236, 248);
+  background-color:rgb(37, 92, 141);
   border-bottom: 1px rgb(18, 2, 107) solid;
   }
 
-.profile{
-  display: flex;
-
-}
-
 .image{
-  margin-left: 20px;
-  margin-right: 100px;
-  max-width: 500px;
+  margin: 10px 100px 0 5px;
+  max-width: 250px;
 }
 
 .profile-name{
   padding-left: 40px;
-  margin-top: 150px;
+  font-size: 30px;
 }
 
 .main{
   background-color:rgb(222, 236, 248);
   max-width: 1200px;
+  display: flex;
+  padding-left: 25px;
+  margin: auto;
 }
 
 .bio{
   display: flex;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rs-logo{
+  max-width: 100px;
+  max-height: 75px;
+  padding-right: 10px;
+}
+
+.git-logo{
+  max-height: 60px;
+  max-width: 60px;
+  padding: 0 10px;
+}
+
+.footer{
+  border-top:rgb(18, 2, 107) solid 1px;
+  background-color: rgb(37, 92, 141);
+}
+
+.gitlink{
+  text-decoration: none;
+  display: flex;
+  color:rgb(253, 253, 253);
+   
+}
+
+.gitlink:hover{
+  color:rgb(161, 190, 199)
+}
+
+.date{
+  color:rgb(253, 253, 253);
 }
