@@ -1,0 +1,53 @@
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  color:black;
+  text-decoration: none;
+
+}
+
+.nav-link:visited{
+  color:rgb(18, 2, 107);
+}
+
+
+.header {
+  background-color:rgb(222, 236, 248);
+  border-bottom: 1px rgb(18, 2, 107) solid;
+  }
+
+.profile{
+  display: flex;
+
+}
+
+.image{
+  margin-left: 20px;
+  margin-right: 100px;
+  max-width: 500px;
+}
+
+.profile-name{
+  padding-left: 40px;
+  margin-top: 150px;
+}
+
+.main{
+  background-color:rgb(222, 236, 248);
+  max-width: 1200px;
+}
+
+.bio{
+  display: flex;
+}
